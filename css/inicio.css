@@ -1,0 +1,174 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header {
+    /* esto se realiza para la barra del menu color  y ancho */
+    background-color:rgb(39, 38, 38);
+    height: 80px;
+/* fijar para cuando haces scroll */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    /* para logo a la izquierda */
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.mascara{
+    width: 80px;
+    margin-top: 5px;
+    margin: 10px;
+    margin-right: 300px;
+}
+
+.youtube{
+    width: 80px;
+    margin-left:500px;
+}
+
+.nav-link {
+    text-decoration-line: none;
+
+}
+
+a{
+    color:white
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.nav-menu {
+    display: flex;
+    margin:center;
+    list-style: none;
+ 
+
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+/* pseudo selector */
+.nav-menu-link:hover{
+    background-color: rgb(71, 71, 90);
+
+}
+
+/* cuerpo */
+
+h1 { list-style: none;
+    color: rgb(12, 35, 137);
+    font-size: 30px;
+    font-variant: small-caps;
+    line-height: 50px;
+    padding: 0 30px;
+}
+
+h4 { list-style: none;
+    color: rgb(12, 35, 137);
+    font-size: 20px;
+    font-variant: small-caps;
+    line-height: 50px;
+    padding: 0 30px;
+}
+
+
+p { color: rgb(12, 35, 137);
+    font-size: 18px;
+    padding: 10px 30px;
+}
+
+img {
+    margin-left: 500px;
+    margin-top: 0px ;
+}
+
+.chirigota{
+    margin-left: 280px;
+    margin-top: 0px ;
+    width: 800px;
+}
+.comparsa{
+    margin-left: 280px;
+    margin-top: 0px ;
+    width: 800px;
+}
+.coros{
+    margin-left: 280px;
+    margin-top: 0px ;
+    width: 800px;
+}
+.cuarteto{
+    margin-left: 280px;
+    margin-top: 0px;
+    width: 800px;
+}
+.teatro{
+    margin-left: 280px;
+    margin-top: 0px;
+    width: 800px;
+}
+.video{
+    margin-left: 280px;
+    margin-top: 0px;
+    width: 800px;
+}
+
+
+.piepagina{
+    background-color:rgb(39, 38, 38);
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.pie{
+    display: flex;
+}
+
+.mascarapie{
+    width: 130px;
+    margin: 10px;
+    margin-right: 300px;
+    margin-bottom: 0px;
+
+}
+.pie-menu{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.pie-formulario{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 750px;
+
+}
