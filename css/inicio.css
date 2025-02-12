@@ -4,7 +4,7 @@
 }
 
 @media (min-width: 600px) {
-  .column {
+  .body {
     width: 50%;
   }
 }
