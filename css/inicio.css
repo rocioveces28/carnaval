@@ -10,7 +10,6 @@ body{
     main {
       flex-wrap: nowrap;
     }
-
 .header {
     /* esto se realiza para la barra del menu color  y ancho */
     background-color:rgb(39, 38, 38);
