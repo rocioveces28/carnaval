@@ -6,6 +6,10 @@
 body{
     font-family: sans-serif;
 }
+ @media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
 
 .header {
     /* esto se realiza para la barra del menu color  y ancho */
